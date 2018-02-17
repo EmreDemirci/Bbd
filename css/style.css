@@ -210,6 +210,7 @@ address h5{
 }
 .first-left h2{
     font-size: 40px;
+    font-weight: bold;
     line-height: 50px;
     font-family: 'Kanit', sans-serif;
     letter-spacing: -1px;
@@ -268,7 +269,7 @@ figure{
     font-size: 40px;
     line-height: 50px;
     font-family: 'Kanit', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     color: #fff;
     font-style: normal;
     text-align: left;
@@ -334,7 +335,7 @@ figure{
     font-size: 40px;
     line-height: 50px;
     font-family: 'Kanit', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     color: #212121;
     font-style: normal;
     text-align: left;
@@ -368,11 +369,62 @@ figure{
     font-size: 40px;
     line-height: 50px;
     font-family: 'Kanit', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     color: #fff;
     font-style: normal;
     text-align: left;
     text-transform: uppercase;
+}
+.newsletter h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: #212121;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+.newsletter span{
+    font-size: 18px;
+    color:#212121;
+    line-height: 26px;
+}
+.newsletter input{
+    width: 375px !important;
+    height: 60px !important;
+}
+.copyright{
+    font-size: 14px;
+    line-height: 20px;
+    color: #686868;
+    font-weight: 400;
+    padding:24px 0;
+    background-color: #1c2630;
+}
+.copyright a{
+    color: #71c9ff;
+}
+.newsletter button{
+    background: #71c9ff;
+    text-transform: uppercase;
+    color: #ffffff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px solid transparent;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 .contact-container{
     background-color: #252d36;
